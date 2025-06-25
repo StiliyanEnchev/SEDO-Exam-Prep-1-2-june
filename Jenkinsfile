@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'windows'
-    }
+    agent: any
 
     environment {
         DOTNET_VERSION = '6.0.x'
